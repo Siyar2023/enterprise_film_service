@@ -1,0 +1,4 @@
+TODO
+* Skapa index.html
+* Skapa endpoints för att konsumera API
+* Thymleaf är kopplat och behöver API för att visa i index.html.
