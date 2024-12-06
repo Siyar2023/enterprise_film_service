@@ -11,7 +11,9 @@ public class Config {
     public SecurityFilterChain securityFilterChain (HttpSecurity http) throws Exception {
     http.authorizeHttpRequests(
             aut -> aut
-                    .requestMatchers("/admin").permitAll());
+                    .requestMatchers("/admin").permitAll()
+                    .requestMatchers("/film").permitAll());
+
 
 
         return http.build();
